@@ -1982,6 +1982,7 @@ input, select, textarea {
 	.item {
 		box-shadow: 0 0.05em 0.15em 0 rgba(0, 0, 0, 0.05);
 		margin-bottom: 40px;
+		transition: all 0.3s ease 0s;
 	}
 
 		.item header {
@@ -1994,6 +1995,13 @@ input, select, textarea {
 			.item header h3 {
 				font-size: 1em;
 			}
+
+	.item:hover {
+		/* border: solid 5px red; */
+		transform: translateY(-7px);
+		transition: all 0.3s ease 0s;
+
+	}
 
 /* Icons */
 
